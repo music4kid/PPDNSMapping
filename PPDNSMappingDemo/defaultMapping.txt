@@ -1,0 +1,1 @@
+{"http://test.testapp.com":["https://test2.testapp.com"],"http://avatar.testapp.com:80":["http://10.54.23.182","http://10.54.23.174:80"]}

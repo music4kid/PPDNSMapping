@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		672F116C1C4E1EC3001E1694 /* PPWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F116B1C4E1EC3001E1694 /* PPWeakTimer.m */; };
+		672F116F1C4E2A46001E1694 /* PPDomainRequestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F116E1C4E2A46001E1694 /* PPDomainRequestResult.m */; };
+		672F11771C4E2D93001E1694 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F11751C4E2D93001E1694 /* Reachability.m */; };
+		672F11801C4E2FBC001E1694 /* PPIPValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F117F1C4E2FBC001E1694 /* PPIPValidator.m */; };
+		672F11831C4E61CB001E1694 /* PPDNSReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F11821C4E61CB001E1694 /* PPDNSReporter.m */; };
+		672F11851C4E633A001E1694 /* defaultMapping.txt in Resources */ = {isa = PBXBuildFile; fileRef = 672F11841C4E633A001E1694 /* defaultMapping.txt */; };
+		672F11881C4F2C2E001E1694 /* PPResolvedUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F11871C4F2C2E001E1694 /* PPResolvedUrl.m */; };
+		672F118B1C4F3951001E1694 /* PPMappingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F118A1C4F3951001E1694 /* PPMappingUtil.m */; };
+		672F118E1C50803C001E1694 /* PPMappingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F118D1C50803C001E1694 /* PPMappingNode.m */; };
 		67B8A53D1C4E172D00DE1CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8A53C1C4E172D00DE1CE4 /* main.m */; };
 		67B8A5401C4E172D00DE1CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8A53F1C4E172D00DE1CE4 /* AppDelegate.m */; };
 		67B8A5431C4E172D00DE1CE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8A5421C4E172D00DE1CE4 /* ViewController.m */; };
@@ -15,6 +24,7 @@
 		67B8A54B1C4E172D00DE1CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B8A5491C4E172D00DE1CE4 /* LaunchScreen.storyboard */; };
 		67B8A5561C4E172D00DE1CE4 /* PPDNSMappingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8A5551C4E172D00DE1CE4 /* PPDNSMappingDemoTests.m */; };
 		67B8A5611C4E172D00DE1CE4 /* PPDNSMappingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8A5601C4E172D00DE1CE4 /* PPDNSMappingDemoUITests.m */; };
+		67B8A5721C4E17F400DE1CE4 /* PPDNSMappingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8A5711C4E17F400DE1CE4 /* PPDNSMappingManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		672F116A1C4E1EC3001E1694 /* PPWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPWeakTimer.h; sourceTree = "<group>"; };
+		672F116B1C4E1EC3001E1694 /* PPWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPWeakTimer.m; sourceTree = "<group>"; };
+		672F116D1C4E2A46001E1694 /* PPDomainRequestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPDomainRequestResult.h; path = ../PPDomainRequestResult.h; sourceTree = "<group>"; };
+		672F116E1C4E2A46001E1694 /* PPDomainRequestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPDomainRequestResult.m; path = ../PPDomainRequestResult.m; sourceTree = "<group>"; };
+		672F11741C4E2D93001E1694 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		672F11751C4E2D93001E1694 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		672F117E1C4E2FBC001E1694 /* PPIPValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPIPValidator.h; sourceTree = "<group>"; };
+		672F117F1C4E2FBC001E1694 /* PPIPValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPIPValidator.m; sourceTree = "<group>"; };
+		672F11811C4E61CB001E1694 /* PPDNSReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDNSReporter.h; sourceTree = "<group>"; };
+		672F11821C4E61CB001E1694 /* PPDNSReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDNSReporter.m; sourceTree = "<group>"; };
+		672F11841C4E633A001E1694 /* defaultMapping.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = defaultMapping.txt; sourceTree = "<group>"; };
+		672F11861C4F2C2E001E1694 /* PPResolvedUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPResolvedUrl.h; sourceTree = "<group>"; };
+		672F11871C4F2C2E001E1694 /* PPResolvedUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPResolvedUrl.m; sourceTree = "<group>"; };
+		672F11891C4F3951001E1694 /* PPMappingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPMappingUtil.h; sourceTree = "<group>"; };
+		672F118A1C4F3951001E1694 /* PPMappingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPMappingUtil.m; sourceTree = "<group>"; };
+		672F118C1C50803C001E1694 /* PPMappingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPMappingNode.h; sourceTree = "<group>"; };
+		672F118D1C50803C001E1694 /* PPMappingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPMappingNode.m; sourceTree = "<group>"; };
 		67B8A5381C4E172D00DE1CE4 /* PPDNSMappingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPDNSMappingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B8A53C1C4E172D00DE1CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67B8A53E1C4E172D00DE1CE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +78,9 @@
 		67B8A55C1C4E172D00DE1CE4 /* PPDNSMappingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPDNSMappingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B8A5601C4E172D00DE1CE4 /* PPDNSMappingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPDNSMappingDemoUITests.m; sourceTree = "<group>"; };
 		67B8A5621C4E172D00DE1CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B8A56F1C4E178800DE1CE4 /* PPDNSMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDNSMapping.h; sourceTree = "<group>"; };
+		67B8A5701C4E17F400DE1CE4 /* PPDNSMappingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDNSMappingManager.h; sourceTree = "<group>"; };
+		67B8A5711C4E17F400DE1CE4 /* PPDNSMappingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDNSMappingManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +108,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		672F11691C4E1DAF001E1694 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				672F116A1C4E1EC3001E1694 /* PPWeakTimer.h */,
+				672F116B1C4E1EC3001E1694 /* PPWeakTimer.m */,
+				672F11891C4F3951001E1694 /* PPMappingUtil.h */,
+				672F118A1C4F3951001E1694 /* PPMappingUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		672F11701C4E2B68001E1694 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				672F116D1C4E2A46001E1694 /* PPDomainRequestResult.h */,
+				672F116E1C4E2A46001E1694 /* PPDomainRequestResult.m */,
+				672F11861C4F2C2E001E1694 /* PPResolvedUrl.h */,
+				672F11871C4F2C2E001E1694 /* PPResolvedUrl.m */,
+				672F118C1C50803C001E1694 /* PPMappingNode.h */,
+				672F118D1C50803C001E1694 /* PPMappingNode.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		672F11711C4E2C9F001E1694 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				672F11721C4E2D93001E1694 /* Reachability */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		672F11721C4E2D93001E1694 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				672F11741C4E2D93001E1694 /* Reachability.h */,
+				672F11751C4E2D93001E1694 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		67B8A52F1C4E172D00DE1CE4 = {
 			isa = PBXGroup;
 			children = (
+				67B8A56E1C4E175B00DE1CE4 /* PPDNSMapping */,
 				67B8A53A1C4E172D00DE1CE4 /* PPDNSMappingDemo */,
 				67B8A5541C4E172D00DE1CE4 /* PPDNSMappingDemoTests */,
 				67B8A55F1C4E172D00DE1CE4 /* PPDNSMappingDemoUITests */,
@@ -110,6 +182,7 @@
 				67B8A5491C4E172D00DE1CE4 /* LaunchScreen.storyboard */,
 				67B8A54C1C4E172D00DE1CE4 /* Info.plist */,
 				67B8A53B1C4E172D00DE1CE4 /* Supporting Files */,
+				672F11841C4E633A001E1694 /* defaultMapping.txt */,
 			);
 			path = PPDNSMappingDemo;
 			sourceTree = "<group>";
@@ -138,6 +211,23 @@
 				67B8A5621C4E172D00DE1CE4 /* Info.plist */,
 			);
 			path = PPDNSMappingDemoUITests;
+			sourceTree = "<group>";
+		};
+		67B8A56E1C4E175B00DE1CE4 /* PPDNSMapping */ = {
+			isa = PBXGroup;
+			children = (
+				67B8A56F1C4E178800DE1CE4 /* PPDNSMapping.h */,
+				67B8A5701C4E17F400DE1CE4 /* PPDNSMappingManager.h */,
+				67B8A5711C4E17F400DE1CE4 /* PPDNSMappingManager.m */,
+				672F117E1C4E2FBC001E1694 /* PPIPValidator.h */,
+				672F117F1C4E2FBC001E1694 /* PPIPValidator.m */,
+				672F11811C4E61CB001E1694 /* PPDNSReporter.h */,
+				672F11821C4E61CB001E1694 /* PPDNSReporter.m */,
+				672F11701C4E2B68001E1694 /* model */,
+				672F11691C4E1DAF001E1694 /* util */,
+				672F11711C4E2C9F001E1694 /* 3rdParty */,
+			);
+			path = PPDNSMapping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +336,7 @@
 				67B8A54B1C4E172D00DE1CE4 /* LaunchScreen.storyboard in Resources */,
 				67B8A5481C4E172D00DE1CE4 /* Assets.xcassets in Resources */,
 				67B8A5461C4E172D00DE1CE4 /* Main.storyboard in Resources */,
+				672F11851C4E633A001E1694 /* defaultMapping.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +361,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672F118E1C50803C001E1694 /* PPMappingNode.m in Sources */,
+				672F116F1C4E2A46001E1694 /* PPDomainRequestResult.m in Sources */,
+				672F11881C4F2C2E001E1694 /* PPResolvedUrl.m in Sources */,
+				67B8A5721C4E17F400DE1CE4 /* PPDNSMappingManager.m in Sources */,
 				67B8A5431C4E172D00DE1CE4 /* ViewController.m in Sources */,
+				672F11771C4E2D93001E1694 /* Reachability.m in Sources */,
 				67B8A5401C4E172D00DE1CE4 /* AppDelegate.m in Sources */,
+				672F116C1C4E1EC3001E1694 /* PPWeakTimer.m in Sources */,
 				67B8A53D1C4E172D00DE1CE4 /* main.m in Sources */,
+				672F11801C4E2FBC001E1694 /* PPIPValidator.m in Sources */,
+				672F11831C4E61CB001E1694 /* PPDNSReporter.m in Sources */,
+				672F118B1C4F3951001E1694 /* PPMappingUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PPDNSMappingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.PPDNSMappingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PPDNSMappingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.PPDNSMappingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +600,7 @@
 				67B8A5671C4E172D00DE1CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67B8A5681C4E172D00DE1CE4 /* Build configuration list for PBXNativeTarget "PPDNSMappingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +609,7 @@
 				67B8A56A1C4E172D00DE1CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67B8A56B1C4E172D00DE1CE4 /* Build configuration list for PBXNativeTarget "PPDNSMappingDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +618,7 @@
 				67B8A56D1C4E172D00DE1CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
